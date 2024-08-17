@@ -49,7 +49,7 @@ const NewsTicker = () => {
                 <h2 className="text-xl font-bold text-center">Latest News</h2>
                 <div className="flex justify-center items-center">
                     <button
-                        className="text-white font-medium bg-blue-500 hover:bg-blue-700 font-semibold py-2 px-4 rounded"
+                        className="text-white font-medium bg-geen-500 hover:bg-blue-700 font-semibold py-2 px-4 rounded"
                     >
                         See All
                     </button>

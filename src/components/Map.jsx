@@ -2,7 +2,7 @@ const Map = () => {
     return (
         <>
             <div className="my-4">
-                <h1 className='md:text-3xl text-xl font-bold text-center'>Interactive Commerce <span className='text-green-500'>Ministry</span> Map</h1>
+                <h1 className='md:text-3xl text-xl font-bold text-center'>Interactive Commerce <span className='text-blue-500'>Ministry</span> Map</h1>
                 <p className='w-3/4 mx-auto my-2 font-medium text-center'>Explore key locations and offices of the Commerce Ministry with our dynamic, user-friendly map for seamless navigation</p>
             </div>
             <div className="bg-blue-300 p-4 rounded-lg shadow-lg">

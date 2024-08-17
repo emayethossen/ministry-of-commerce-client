@@ -250,7 +250,7 @@ const MainLayout = () => {
                 <img src={logo} className="bg-white rounded-full w-12 h-12 md:hidden" alt="Logo" />
               </div>
               <h1 style={{ fontFamily: '"Edu VIC WA NT Beginner", sans-serif' }} className='md:text-3xl text-xl font-bold'>
-                <span className='text-green-500'>Ministry</span> Of Commerce
+                <span className='text-blue-500'>Ministry</span> Of Commerce
               </h1>
             </div>
 

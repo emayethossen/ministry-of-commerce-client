@@ -16,7 +16,7 @@ const Card = ({ title, logo, items, bgColor }) => {
         <ul className="space-y-2">
           {items.map((item, index) => (
             <li key={index}>
-              <FontAwesomeIcon icon={faLink} className="mr-2 text-green-500" />
+              <FontAwesomeIcon icon={faLink} className="mr-2 text-blue-500" />
               <span className="font-semibold">
                 {item}
               </span>

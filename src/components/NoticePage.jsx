@@ -15,7 +15,7 @@ const NoticePage = () => {
   return (
     <div className="md:mb-8 mb-4 p-6 shadow-lg rounded-lg">
       <div className='flex mb-6 justify-between items-center'>
-        <h2 className="text-xl w-3/4 md:text-2xl font-bold"><span className='text-green-500'>Ministry</span> of Commerce Noticeboard</h2>
+        <h2 className="text-xl w-3/4 md:text-2xl font-bold"><span className='text-blue-500'>Ministry</span> of Commerce Noticeboard</h2>
         <div className="">
           <button
             className="text-white bg-blue-500 hover:bg-blue-700 font-semibold py-2 px-4 rounded"
