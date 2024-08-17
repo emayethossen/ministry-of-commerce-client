@@ -11,7 +11,7 @@ const innovation = [
 
 const InnovationCorner = () => {
     return (
-        <div className="max-w-2xl mx-auto my-2 bg-[#E1F5FE] hover:bg-[#FEF2F2] rounded-lg shadow-md">
+        <div className="max-w-2xl mx-auto my-2 bg-[#EFF6FF] hover:bg-[#FEF2F2] rounded-lg shadow-md">
             <h1 className="text-2xl rounded-lg bg-green-500 text-center py-4 px-2 font-bold text-white">Innovation Corner</h1>
             <ul className="space-y-2 p-6">
                 {innovation.map((service, index) => (

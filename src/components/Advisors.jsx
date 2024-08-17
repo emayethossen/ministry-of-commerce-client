@@ -1,6 +1,4 @@
 import React from 'react';
-import img1 from '../assets/yonus.jpg'
-import img2 from '../assets/selim.jpg'
 
 const PersonCard = ({ name, title, position, imageSrc }) => (
     <div className="bg-[#EFF6FF] hover:bg-[#FEF2F2] p-4 rounded-lg space-y-2 shadow-md overflow-hidden">
@@ -13,7 +11,7 @@ const PersonCard = ({ name, title, position, imageSrc }) => (
             <p className="text-black font-semibold">{position}</p>
         </div>
         <div className='flex justify-center items-center'>
-            <button class="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
                 Details
             </button>
         </div>

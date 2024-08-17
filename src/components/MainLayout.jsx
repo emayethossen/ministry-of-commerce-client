@@ -260,7 +260,7 @@ const MainLayout = () => {
                 placeholder="Search..."
                 // prefix={<SearchOutlined />}
               />
-              <Button type="primary" className="text-white -ml-2 hidden md:flex">
+              <Button type="primary" className="text-white bg-blue-500 -ml-2 hidden md:flex">
                 Search
               </Button>
             </div>
@@ -273,7 +273,7 @@ const MainLayout = () => {
                   Office <DownOutlined />
                 </Button>
               </Dropdown>
-              <Button type="primary" className="text-white -ml-2">
+              <Button type="primary" className="text-white bg-blue-500 -ml-2">
                 Go
               </Button>
             </div>

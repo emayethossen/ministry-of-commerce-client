@@ -12,7 +12,7 @@ const helplines = [
 
 const EmergencyHelpline = () => {
     return (
-        <div className="max-w-lg mx-auto my-2 bg-[#E1F5FE] hover:bg-[#FEF2F2] rounded-lg shadow-md">
+        <div className="max-w-lg mx-auto my-2 bg-[#EFF6FF] hover:bg-[#FEF2F2] rounded-lg shadow-md">
             <h1 className="text-2xl rounded-lg bg-green-500 py-4 text-center font-bold text-white">Emergency Hotline</h1>
             <ul className="space-y-4 p-6">
                 {helplines.map((helpline, index) => (

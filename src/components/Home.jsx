@@ -3,6 +3,7 @@ import Cards from "./Cards";
 import EServicesList from "./E-services";
 import EmergencyHelpline from "./EmergencyHelpline";
 import Footer from "./Footer";
+import ImportantLinksList from "./ImportantLink";
 import InnovationCorner from "./Innovation";
 import Map from "./Map"
 import NewsTicker from "./NewsTicker";
@@ -15,16 +16,24 @@ const Home = () => {
             <div className="md:grid md:grid-cols-5">
                 <div className="md:col-span-4">
                     <Slider />
-                    <NewsTicker />
+                    <div className="container p-4">
+                        <NewsTicker />
+                    </div>
                     <NoticePage />
                     <Cards />
-                    <Map />
+                    <div className="hidden md:block">
+                        <Map />
+                    </div>
                 </div>
-                <div className="container mx-auto p-2 bg-[#FFF8E1] h-full">
+                <div className="container mx-auto md:p-2 p-12 bg-[#E1F5FE] md:bg-[#FFF8E1] h-full space-y-4">
                     <HonorableAdvisers />
                     <EServicesList />
                     <EmergencyHelpline />
                     <InnovationCorner />
+                    <ImportantLinksList />
+                    <div className="md:hidden">
+                        <Map />
+                    </div>
                 </div>
             </div>
             <Footer />

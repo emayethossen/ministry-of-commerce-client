@@ -44,12 +44,12 @@ const NewsTicker = () => {
     }, []);
 
     return (
-        <div className="max-w-lg mx-auto my-8 p-4 bg-white rounded-lg shadow-md">
+        <div className="max-w-lg mx-auto md:mt-4 p-4 bg-white rounded-lg shadow-md">
             <div className='flex justify-between items-center'>
-                <h2 className="text-xl font-bold mb-4 text-center">Latest News</h2>
-                <div className="">
+                <h2 className="text-xl font-bold text-center">Latest News</h2>
+                <div className="flex justify-center items-center">
                     <button
-                        className="text-white font-medium bg-[#6495ED] hover:bg-blue-700 font-semibold py-2 px-4 rounded"
+                        className="text-white font-medium bg-blue-500 hover:bg-blue-700 font-semibold py-2 px-4 rounded"
                     >
                         See All
                     </button>

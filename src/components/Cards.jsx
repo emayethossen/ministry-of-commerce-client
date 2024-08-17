@@ -29,7 +29,7 @@ const backgroundColors = [
 const Cards = () => {
   return (
     <div>
-      <h1 className='md:text-3xl text-xl font-bold text-center'>Ministry of Commerce Services</h1>
+      <h1 className='md:text-3xl text-xl font-bold text-center'><span className='text-green-500'>Ministry</span> of Commerce Services</h1>
       <p className='w-3/4 mx-auto my-4 font-medium text-center'>The Ministry of Commerce provides trade facilitation, market regulation, policy development, and support services to enhance national economic growth and international trade.</p>
       <div className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {cardData.map((data, index) => (
